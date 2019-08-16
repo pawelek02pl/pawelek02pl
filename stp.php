@@ -24,7 +24,7 @@
 <div class="logo">
 <div style="width:100px;"></div>
 <p style="font-size:100px;float:left;padding-left:50px;">
- <a href="stp.html" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="stp.html" style="font-family: 'Indie Flower', cursive;">Work</a>
+ <a href="stp.php" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="stp.php" style="font-family: 'Indie Flower', cursive;">Work</a>
 </p>
 <div style="clear:both;"></div>
 </div>
@@ -35,7 +35,7 @@
 
 <div id="slider">
 <br/>
-<div style="background-color:#f0f0f0;width:200px;box-shadow:0px 0px 8px -3px #000000;margin-left:auto;margin-right:auto;"><h1><a href="logowanie.html">dołącz do nas</a><h1></div>
+<div style="background-color:#f0f0f0;width:200px;box-shadow:0px 0px 8px -3px #000000;margin-left:auto;margin-right:auto;"><h1><a href="logowanie.php">dołącz do nas</a><h1></div>
 <br/>
 </div>
 

@@ -24,7 +24,7 @@
 <div class="logo">
 <div style="width:100px;"></div>
 <p style="font-size:100px;float:left;padding-left:50px;">
- <a href="stp.html" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="stp.html" style="font-family: 'Indie Flower', cursive;">Work</a>
+ <a href="stp.php" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="stp.php" style="font-family: 'Indie Flower', cursive;">Work</a>
 </p>
 <div style="clear:both;"></div>
 </div>
@@ -36,7 +36,7 @@
 
 <h1>Logowanie</h1>
 
-<form action="index.html" >
+<form action="index.php" >
 login:<br/>
 <input type="text" name="login"><br/>
 hasło:<br/>
@@ -54,7 +54,7 @@ hasło:<br/>
 
 
 
-<form action="index.html" >
+<form action="index.php" >
 	<h1>Nie masz jeszcze konta</h1>
 
 	login:<br/>
