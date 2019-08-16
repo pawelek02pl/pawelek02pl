@@ -22,10 +22,10 @@
 <div class="space"></div>
 
 <div class="logo">
-<p style="font-size:100px;"><a href="stp.php" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="stp.php" style="font-family: 'Indie Flower', cursive;">Work</a></p>
+<p style="font-size:100px;"><a href="index.php" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="index.php" style="font-family: 'Indie Flower', cursive;">Work</a></p>
 </div>
 <nav class="logo">
-<a href="index.php"> <!--id="link1" href="#"-->  Twoje finanse </a> |
+<a href="twoje finanse.php"> <!--id="link1" href="#"-->  Twoje finanse </a> |
 <a href="porady finansowe.php"> <!--id="link1" href="#"-->  Porady finansowe</a> |
 <a href="mój profil.php"> <!--id="link4" href="#"-->  Mój profil </a>
 </nav>

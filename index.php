@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+if((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
+{
+	header('Location:gra.php');
+	exit();
+}
+
+
+?>
+
 <!DOCTYPE HTML>
 <html lang="pl">
 <head>
@@ -22,26 +35,22 @@
 <div class="space"></div>
 
 <div class="logo">
-<p style="font-size:100px;"><a href="stp.php" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="stp.php" style="font-family: 'Indie Flower', cursive;">Work</a></p>
+<div style="width:100px;"></div>
+<p style="font-size:100px;float:left;padding-left:50px;">
+ <a href="index.php" style="font-family: 'Libre Caslon Text', serif;">Money</a><a href="index.php" style="font-family: 'Indie Flower', cursive;">Work</a>
+</p>
+<div style="clear:both;"></div>
 </div>
-<nav class="logo">
-<a href="index.php"> <!--id="link1" href="#"-->  Twoje finanse </a> |
-<a href="porady finansowe.php"> <!--id="link1" href="#"-->  Porady finansowe</a> |
-<a href="mój profil.php"> <!--id="link4" href="#"-->  Mój profil </a>
-</nav>
+
+<br/>
 
 <main>
 
-<h1>Witaj w swojej aplikacji finansowej</h1>
-twój budrzet miesięczny wygląda tak: <br/>
+<div id="slider">
 <br/>
-echo: * but "haslo" and "login" whear login = $login
+<div style="background-color:#f0f0f0;width:200px;box-shadow:0px 0px 8px -3px #000000;margin-left:auto;margin-right:auto;"><h1><a href="logowanie.php">dołącz do nas</a><h1></div>
 <br/>
-<br/>
-
-
-
-
+</div>
 
 </main>
 
