@@ -49,7 +49,7 @@ if((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
 
 <h1>Logowanie</h1>
 
-<form action="twoje finanse.php" >
+<form action="twoje finanse.php" method="post" >
 login:<br/>
 <input type="text" name="login"><br/>
 hasło:<br/>
@@ -67,7 +67,7 @@ hasło:<br/>
 
 
 
-<form action="twoje finanse.php" >
+<form action="twoje finanse.php" method="post" >
 	<h1>Nie masz jeszcze konta</h1>
 
 	login:<br/>
@@ -75,7 +75,7 @@ hasło:<br/>
 	e-mail:<br/>
 	<input type="text" name="email"><br/>
 	hasło:<br/>
-	<input type="password" name="password"><br/>
+	<input type="password" name="haslo"><br/>
 <br/>
 	<input type="submit" value="Zarejestruj się">
 
@@ -85,6 +85,16 @@ hasło:<br/>
 <div>
 
 	<div style="clear:both;"></div>
+
+	<?php
+
+ if(isset($_SESSION['blad']))
+ {
+ echo $_SESSION['blad'];
+ unset($_SESSION['blad']);
+ }
+
+ ?>
 
 </main>
 
